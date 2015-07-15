@@ -8,7 +8,7 @@ describe 'clearing the cache', type: :request, cache: true do
     end
 
     it 'clears the cache' do
-      delete '/cache_clear/foo'
+      delete '/cache_clear'
       expect(Rails.cache.read('foo')).not_to eq('bar')
     end
   end

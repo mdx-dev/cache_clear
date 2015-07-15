@@ -7,11 +7,11 @@ require "cache_clear/version"
 Gem::Specification.new do |s|
   s.name        = "cache_clear"
   s.version     = CacheClear::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CacheClear."
-  s.description = "TODO: Description of CacheClear."
+  s.authors     = ["Ariel Caplan"]
+  s.email       = ["ariel.caplan@mail.yu.edu"]
+  s.homepage    = "http://github.com/amcaplan/cache_clear"
+  s.summary     = "Easily set up a cache-clearing endpoint for your Rails app."
+  s.description = "Easily set up a cache-clearing endpoint for your Rails app."
 
   s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 

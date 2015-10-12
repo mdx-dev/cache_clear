@@ -1,5 +1,7 @@
 # CacheClear
 
+[![Gem Version](https://badge.fury.io/rb/cache_clear.svg)](https://badge.fury.io/rb/cache_clear)
+
 `CacheClear` is a simple pre-built solution for adding a cache-clearing endpoint
 to your Rails app.
 

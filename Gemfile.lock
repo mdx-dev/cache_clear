@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cache_clear (0.0.1)
-      rails (~> 4.0.4)
+      rails (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -40,7 +40,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
-    mime-types (2.6.1)
+    mime-types (2.6.2)
     minitest (4.7.5)
     multi_json (1.11.2)
     pry (0.10.1)
@@ -82,9 +82,9 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     slop (3.6.0)
-    sprockets (3.2.0)
+    sprockets (3.3.4)
       rack (~> 1.0)
-    sprockets-rails (2.3.2)
+    sprockets-rails (2.3.3)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -98,4 +98,4 @@ PLATFORMS
 DEPENDENCIES
   cache_clear!
   pry
-  rspec-rails
+  rspec-rails (~> 3.3)

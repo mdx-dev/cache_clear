@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'clearing the cache', type: :request, cache: true do
   def clear_cache
-    delete '/cache_clear', params
+    delete '/cache_clear', params: params
   end
 
   context 'with data in the cache' do
